@@ -45,12 +45,10 @@ import 'guards/auth_guard.dart';
         CustomRoute(
           page: UserProfileView,
           path: 'profile',
-          guards: [AuthGuard],
         ),
         CustomRoute(
           page: PaymentCaptureView,
           path: 'payment-capture',
-          guards: [AuthGuard],
         ),
       ],
     ),
